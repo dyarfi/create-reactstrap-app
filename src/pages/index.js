@@ -1,102 +1,81 @@
-import React from "react";
-import Head from "next/head";
-import { Row, Col } from "reactstrap";
+import React from 'react';
+import { Container, Row, Col, Card, CardDeck } from 'reactstrap';
 
-import MainLayout from "../layout/MainLayout";
-import Nav from "../components/nav";
-import NavLeft from "../components/navLeft";
-import Footer from "../components/footer";
+import MainLayout from '../layout/MainLayout';
 
-const Home = props => (
-  <>
-    <Head>
-      <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
-    </Head>
-    <Nav />
+const Index = props => {
+  return (
     <MainLayout>
-      <Row>
-        <Col xs={12} sm={3} className="bg-light">
-          <NavLeft />
-        </Col>
-        <Col xs={12} sm={9}>
-          <h1>Content</h1>
-          <div className="hero">
-            <h1 className="title">Welcome to Next.js!</h1>
-            <p className="description">
-              To get started, edit <code>pages/index.js</code> and save to
-              reload.
-            </p>
-
-            <div className="row">
-              <a href="https://nextjs.org/docs" className="card">
-                <h3>Documentation &rarr;</h3>
-                <p>Learn more about Next.js in the documentation.</p>
-              </a>
-              <a href="https://nextjs.org/learn" className="card">
-                <h3>Next.js Learn &rarr;</h3>
-                <p>Learn about Next.js by following an interactive tutorial!</p>
-              </a>
-              <a
-                href="https://github.com/zeit/next.js/tree/master/examples"
-                className="card"
-              >
-                <h3>Examples &rarr;</h3>
-                <p>Find other example boilerplates on the Next.js GitHub.</p>
-              </a>
-            </div>
+      <h1>Content</h1>
+      <div className="hero">
+        <h1 className="title">Welcome to Create Reactstrap App!</h1>
+        <p className="description">
+          To get started, edit <code>pages/index.js</code> and save to reload.
+        </p>
+        <Container>
+          <div className="lead my-5">
+            <Row className="text-center mx-auto my-5">
+              <Col className="my-3">
+                <i className="fab fa-bootstrap fa-8x text-primary"></i>
+              </Col>
+              <Col className="my-3">
+                <i className="fab fa-sass fa-8x text-danger"></i>
+              </Col>
+              <Col className="my-3">
+                <i className="fab fa-react fa-8x text-info"></i>
+              </Col>
+            </Row>
+            <h4>Feature</h4>
+            <ul>
+              <li>
+                Bootstrap SCSS with customise variables for themes in any
+                project.
+              </li>
+              <li>
+                Page, components, typography, forms, button, background, icons
+                and cards samples with others additonal libraries.
+              </li>
+            </ul>
           </div>
-        </Col>
-      </Row>
+          <CardDeck>
+            <Card color="dark">
+              <Col lg="12">
+                <a href="/page/documentation" className="text-light p-2">
+                  <h3>
+                    Documentation{' '}
+                    <i className="fas fa-chevron-right align-self-center"></i>
+                  </h3>
+                  <p>Learn more about Next.js in the documentation.</p>
+                </a>
+              </Col>
+            </Card>
+            <Card color="dark">
+              <Col lg="12">
+                <a href="/page/documentation" className="text-light p-2">
+                  <h3>
+                    Next.js Learn <i className="fas fa-chevron-right"></i>
+                  </h3>
+                  <p>
+                    Learn about Next.js by following an interactive tutorial!
+                  </p>
+                </a>
+              </Col>
+            </Card>
+            <Card color="dark">
+              <Col lg="12">
+                <a href="/page/documentation" className="text-light p-2">
+                  <h3>
+                    Examples <i className="fas fa-chevron-right"></i>
+                  </h3>
+                  <p>Find other example boilerplates on the Next.js GitHub.</p>
+                </a>
+              </Col>
+            </Card>
+          </CardDeck>
+        </Container>
+      </div>
     </MainLayout>
-    <Footer />
-    <style jsx>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
-        font-size: 48px;
-      }
-      .title,
-      .description {
-        text-align: center;
-      }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
-      }
-      .card:hover {
-        border-color: #067df7;
-      }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
-      }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
-        font-size: 13px;
-        color: #333;
-      }
-    `}</style>
-  </>
-);
+  );
+};
 
-export default Home;
+export default Index;

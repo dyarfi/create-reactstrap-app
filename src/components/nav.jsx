@@ -1,6 +1,5 @@
-import React from "react";
-// import Link from "next/link";
-import logo from "../logo.svg";
+import React from 'react';
+import logo from '../logo.svg';
 
 // const links = [
 //   { href: "/", label: "Logo" },
@@ -10,7 +9,7 @@ import logo from "../logo.svg";
 //   key: `nav-link-${link.href}-${link.label}`
 // }));
 
-const Nav = props => {
+function Nav(props) {
   // const { children } = props;
   return (
     <nav>
@@ -21,6 +20,6 @@ const Nav = props => {
       </ul>
     </nav>
   );
-};
+}
 
 export default Nav;
