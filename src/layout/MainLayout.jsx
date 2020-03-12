@@ -13,10 +13,10 @@ function MainLayout(props) {
       <NavbarTop />
       <Container fluid className="wrapper">
         <Row>
-          <Col xs={12} sm={3} className="bg-light">
+          <Col className="wrapper-left">
             <NavbarLeft />
           </Col>
-          <Col xs={12} sm={9}>
+          <Col className="wrapper-content">
             {children}
           </Col>
         </Row>

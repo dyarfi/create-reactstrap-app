@@ -41,7 +41,7 @@ function App() {
           <CardDeck>
             <Card color="light">
               <Col lg="12">
-                <a href="/page/documentation" className="text-dark p-2">
+                <a href="/pages/documentation" className="text-dark p-2">
                   <h3>
                     Documentation{' '}
                     <i className="fas fa-chevron-right align-self-center"></i>
@@ -52,7 +52,7 @@ function App() {
             </Card>
             <Card color="light">
               <Col lg="12">
-                <a href="/page/documentation" className="text-dark p-2">
+                <a href="/pages/documentation" className="text-dark p-2">
                   <h3>
                     Next.js Learn <i className="fas fa-chevron-right"></i>
                   </h3>
@@ -64,7 +64,7 @@ function App() {
             </Card>
             <Card color="light">
               <Col lg="12">
-                <a href="/page/documentation" className="text-dark p-2">
+                <a href="/pages/documentation" className="text-dark p-2">
                   <h3>
                     Examples <i className="fas fa-chevron-right"></i>
                   </h3>

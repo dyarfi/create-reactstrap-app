@@ -7523,7 +7523,7 @@ const Documentation = props => {
       </Row>
       <h3>Backgrounds</h3>
       <Row id="background">
-        <Container isFluid className="px-0">
+        <Container fluid className="px-0">
           <div
             className="d-flex align-items-center mb-2"
             //   style="height:200px; background-image: url('./assets/img/unsplash-stil-336188.jpg');"
@@ -7556,7 +7556,7 @@ const Documentation = props => {
       </Row>
       <h3>Cards</h3>
       <Row id="cards">
-        <Container isFluid>
+        <Container fluid>
           <Row>
             <h4>Promos</h4>
             <Container>
@@ -7594,7 +7594,7 @@ const Documentation = props => {
           <Row>
             <h4>Menus</h4>
             <h5 className="mb-4">.menu-list</h5>
-            <Container isFluid>
+            <Container fluid>
               <Row>
                 {/* {% include "cards/card-menus.twig" with menus %} */}
               </Row>
