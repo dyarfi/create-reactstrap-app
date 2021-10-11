@@ -1,13 +1,11 @@
-import React, { memo } from "react";
-import {
-  Col
-} from "reactstrap";
+import React, { memo } from 'react';
+import { Col } from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from 'layout/MainLayout';
 
-import { CARDS } from "../constants/cards";
+import { CARDS } from 'constants/cards';
 
-const Employee = memo(props => {
+const Employee = memo((props) => {
   return (
     <MainLayout>
       <h1>Cards</h1>
@@ -126,7 +124,7 @@ const Employee = memo(props => {
             );
           })}
         </div>
-      </div>      
+      </div>
     </MainLayout>
   );
 });

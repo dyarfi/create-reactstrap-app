@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Row, Container } from 'reactstrap';
 
-// import HeadDefault from '../components/HeadDefault';
-import NavbarTop from '../components/navbar/NavbarTop';
-import NavbarLeft from '../components/navbar/NavbarLeft';
-import Footer from '../components/Footer';
+// import HeadDefault from 'components/HeadDefault';
+import NavbarTop from 'components/navbar/NavbarTop';
+import NavbarLeft from 'components/navbar/NavbarLeft';
+import Footer from 'components/Footer';
 
 function MainLayout(props) {
   const { children } = props;
@@ -16,9 +16,7 @@ function MainLayout(props) {
           <Col className="wrapper-left">
             <NavbarLeft />
           </Col>
-          <Col className="wrapper-content">
-            {children}
-          </Col>
+          <Col className="wrapper-content">{children}</Col>
         </Row>
       </Container>
       <Footer />

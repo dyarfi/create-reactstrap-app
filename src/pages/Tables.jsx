@@ -1,12 +1,11 @@
-import React, { memo } from "react";
-import { Col, Row, Table } from "reactstrap";
+import React, { memo } from 'react';
+import { Col, Row, Table } from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from 'layout/MainLayout';
 
-const Tables = memo(props => {
-
+const Tables = memo((props) => {
   return (
-    <MainLayout>    
+    <MainLayout>
       <h1>Tables</h1>
       <div className="hero">
         <Row>
@@ -149,4 +148,3 @@ const Tables = memo(props => {
 });
 
 export default Tables;
-

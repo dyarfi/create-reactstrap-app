@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { memo } from 'react';
 import {
   Container,
   Row,
@@ -9,14 +9,14 @@ import {
   CardImg,
   CardTitle,
   CardText,
-  CardLink
-} from "reactstrap";
+  CardLink,
+} from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from 'layout/MainLayout';
 
-import { CARDS } from "../constants/cards";
+import { CARDS } from 'constants/cards';
 
-const PostsPage = memo(props => {
+const PostsPage = memo((props) => {
   return (
     <MainLayout>
       <h1>Cards</h1>
@@ -25,7 +25,9 @@ const PostsPage = memo(props => {
         <Container fluid>
           <div className="boxed-bottom">
             {CARDS.posts.map((post, key) => {
-              const oddEven = `boxed-bottom-${key % 2 === 1 ? "left" : "right"}`;
+              const oddEven = `boxed-bottom-${
+                key % 2 === 1 ? 'left' : 'right'
+              }`;
               return (
                 <Col
                   key={`b-${key}`}

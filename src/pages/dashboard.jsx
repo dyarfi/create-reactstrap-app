@@ -13,7 +13,7 @@ import {
 } from 'reactstrap';
 import { Button } from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from 'layout/MainLayout';
 
 const Dashboard = (props) => {
   return (
