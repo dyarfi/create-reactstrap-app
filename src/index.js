@@ -3,17 +3,16 @@ import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import App from 'App';
-// import Index from 'pages/Index';
-import Dashboard from 'pages/Dashboard';
-import Documentation from 'pages/Documentation';
-import Typography from 'pages/Typography';
-import Buttons from 'pages/Buttons';
-import Posts from 'pages/Posts';
-import Employee from 'pages/Employee';
-import Tables from 'pages/Tables';
-import Page404 from 'pages/Page404';
+import Dashboard from './pages/Dashboard';
+import Documentation from './pages/Documentation';
+import Typography from './pages/Typography';
+import Buttons from './pages/Buttons';
+import Posts from './pages/Posts';
+import Employee from './pages/Employee';
+import Tables from './pages/Tables';
+import Page404 from './pages/Page404';
 
-import * as serviceWorker from 'serviceWorker';
+import * as serviceWorker from './serviceWorker';
 
 const routing = (
   <Suspense
@@ -28,7 +27,6 @@ const routing = (
     <Router>
       <Switch>
         <Route exact path="/" component={App} />
-        {/* <Route path="/" component={Index} /> */}
         <Route path="/pages/dashboard" component={Dashboard} />
         <Route path="/pages/documentation" component={Documentation} />
         <Route path="/pages/typography" component={Typography} />
