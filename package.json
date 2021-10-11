@@ -10,6 +10,7 @@
   "private": false,
   "license": "Unlicense",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.3.0",

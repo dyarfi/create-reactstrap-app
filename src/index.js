@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import App from 'App';
+import App from './App';
 import Dashboard from './pages/Dashboard';
 import Documentation from './pages/Documentation';
 import Typography from './pages/Typography';

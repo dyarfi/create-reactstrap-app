@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { Col, Row, Table } from 'reactstrap';
 
-import MainLayout from 'layout/MainLayout';
+import MainLayout from '../layout/MainLayout';
 
 const Tables = memo((props) => {
   return (
