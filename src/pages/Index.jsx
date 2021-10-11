@@ -2,11 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Card, CardDeck } from 'reactstrap';
 
 import MainLayout from '../layout/MainLayout';
-
-const Index = props => {
+const Index = (props) => {
   return (
     <MainLayout>
-      <h1>Content</h1>
       <div className="hero">
         <h1 className="title">Welcome to Create Reactstrap App!</h1>
         <p className="description">

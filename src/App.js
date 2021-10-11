@@ -7,7 +7,6 @@ import './assets/scss/main.scss';
 function App() {
   return (
     <MainLayout>
-      <h1>Content</h1>
       <div className="hero">
         <h1 className="title">Welcome to Create Reactstrap App!</h1>
         <p className="description">

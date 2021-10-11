@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import App from './App';
-import Index from './pages/Index';
+// import Index from './pages/Index';
 import Dashboard from './pages/Dashboard';
 import Documentation from './pages/Documentation';
 import Typography from './pages/Typography';
@@ -15,12 +15,20 @@ import Page404 from './pages/Page404';
 
 import * as serviceWorker from './serviceWorker';
 
-const routing = ( 
-   <Suspense fallback={<div className="d-flex align-items-center vh-100 justify-content-center text-center font-weight-bold font-size-lg py-3"><div className="w-50 mx-auto">Please wait while we load the live preview examples</div></div>}>
+const routing = (
+  <Suspense
+    fallback={
+      <div className="d-flex align-items-center vh-100 justify-content-center text-center font-weight-bold font-size-lg py-3">
+        <div className="w-50 mx-auto">
+          Please wait while we load the live preview examples
+        </div>
+      </div>
+    }
+  >
     <Router>
       <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/pages/index" component={Index} />
+        {/* <Route path="/" component={Index} /> */}
         <Route path="/pages/dashboard" component={Dashboard} />
         <Route path="/pages/documentation" component={Documentation} />
         <Route path="/pages/typography" component={Typography} />
@@ -31,8 +39,8 @@ const routing = (
         <Route component={Page404} />
       </Switch>
     </Router>
-    </Suspense>
-  );
+  </Suspense>
+);
 
 ReactDOM.render(routing, document.getElementById('root'));
 
