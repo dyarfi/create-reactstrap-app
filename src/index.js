@@ -2,15 +2,15 @@ import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import App from 'App';
-import Dashboard from 'pages/Dashboard';
-import Documentation from 'pages/Documentation';
-import Typography from 'pages/Typography';
-import Buttons from 'pages/Buttons';
-import Posts from 'pages/Posts';
-import Employee from 'pages/Employee';
-import Tables from 'pages/Tables';
-import Page404 from 'pages/Page404';
+import App from '~/App';
+import Dashboard from '~/pages/Dashboard';
+import Documentation from '~/pages/Documentation';
+import Typography from '~/pages/Typography';
+import Buttons from '~/pages/Buttons';
+import Posts from '~/pages/Posts';
+import Employee from '~/pages/Employee';
+import Tables from '~/pages/Tables';
+import Page404 from '~/pages/Page404';
 
 import * as serviceWorker from './serviceWorker';
 
