@@ -58,7 +58,7 @@ const PostsPage = memo((props) => {
 
                     <a
                       className="btn btn-sm btn-default btn-hidden text-muted"
-                      href="#"
+                      href="#employee"
                     >
                       <span>read more</span>&nbsp;
                       <i className="fas fa-arrow-right"></i>
@@ -125,19 +125,19 @@ const PostsPage = memo((props) => {
                       </Col>
                       <Col className="align-self-center text-right">
                         <a
-                          href="#"
+                          href="#employee"
                           className="btn btn-sm color-icons icon-rounded-circle p-1"
                         >
                           <i className="fab fa-facebook"></i>
                         </a>
                         <a
-                          href="#"
+                          href="#employee"
                           className="btn btn-sm color-icons icon-rounded-circle p-1"
                         >
                           <i className="fab fa-twitter"></i>
                         </a>
                         <a
-                          href="#"
+                          href="#employee"
                           className="btn btn-sm color-icons icon-rounded-circle p-1"
                         >
                           <i className="fab fa-linkedin"></i>

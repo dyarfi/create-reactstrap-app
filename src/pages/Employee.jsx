@@ -47,13 +47,13 @@ const Employee = memo((props) => {
                       {employee.about}
                     </p>
                     <div>
-                      <a href="#" className="text-info h5 mr-1">
+                      <a href="#employee" className="text-info h5 mr-1">
                         <i className="fab fa-linkedin"></i>
                       </a>
-                      <a href="#" className="text-dark h5 mr-1">
+                      <a href="#employee" className="text-dark h5 mr-1">
                         <i className="fab fa-github"></i>
                       </a>
-                      <a href="#" className="text-primary h5 mr-1">
+                      <a href="#employee" className="text-primary h5 mr-1">
                         <i className="fab fa-facebook"></i>
                       </a>
                     </div>
@@ -100,19 +100,19 @@ const Employee = memo((props) => {
                     </p>
                     <div>
                       <a
-                        href="#"
+                        href="#employee"
                         className="btn btn-sm btn-info rounded-circle mr-1"
                       >
                         <i className="fab fa-linkedin"></i>
                       </a>
                       <a
-                        href="#"
+                        href="#employee"
                         className="btn btn-sm btn-dark rounded-circle mr-1"
                       >
                         <i className="fab fa-github"></i>
                       </a>
                       <a
-                        href="#"
+                        href="#employee"
                         className="btn btn-sm btn-primary rounded-circle mr-1"
                       >
                         <i className="fab fa-facebook"></i>

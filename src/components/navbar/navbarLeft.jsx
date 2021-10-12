@@ -1,12 +1,12 @@
 import React from 'react';
-import { 
+import {
   ListGroup,
   ListGroupItem,
   Nav,
   NavItem,
   NavLink,
-  UncontrolledCollapse
- } from 'reactstrap';
+  UncontrolledCollapse,
+} from 'reactstrap';
 
 // const links = [
 //   { href: "/", label: "Logo" },
@@ -49,7 +49,7 @@ function NavbarLeft(props) {
             Carousels
           </ListGroupItem>
           <ListGroupItem>
-            <a href="#" className="dropdown-toggle" id="toggleCollapser">
+            <a href="#pages" className="dropdown-toggle" id="toggleCollapser">
               Pages
             </a>
             <UncontrolledCollapse toggler="toggleCollapser">
@@ -70,7 +70,7 @@ function NavbarLeft(props) {
             Tables
           </ListGroupItem>
           <ListGroupItem>
-            <a href="#" className="dropdown-toggle" id="toggleCollapser1">
+            <a href="#pages" className="dropdown-toggle" id="toggleCollapser1">
               Pages
             </a>
             <UncontrolledCollapse toggler="toggleCollapser1">
