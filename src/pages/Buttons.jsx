@@ -11,7 +11,7 @@ import {
   DropdownItem,
 } from 'reactstrap';
 
-import MainLayout from 'layout/MainLayout';
+import MainLayout from '../layout/MainLayout';
 
 function Buttons(props) {
   const [stateDropUp, setStateDropUp] = useState(false);

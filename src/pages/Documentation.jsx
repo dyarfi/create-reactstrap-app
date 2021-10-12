@@ -2,9 +2,9 @@ import React from 'react';
 
 import { Container, Row, Col } from 'reactstrap';
 
-import MainLayout from 'layout/MainLayout';
+import MainLayout from '../layout/MainLayout';
 
-function Documentation (props) {
+function Documentation(props) {
   return (
     <MainLayout>
       <h1>Documentation</h1>
@@ -7626,6 +7626,6 @@ function Documentation (props) {
       </Row>
     </MainLayout>
   );
-};
+}
 
 export default Documentation;
