@@ -12,7 +12,7 @@ import {
   CardLink,
 } from 'reactstrap';
 
-import MainLayout from '../components/layout/MainLayout';
+import MainLayout from '../components/MainLayout';
 
 import { CARDS } from '../constants/cards';
 

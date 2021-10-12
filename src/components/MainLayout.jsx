@@ -2,9 +2,9 @@ import React from 'react';
 import { Col, Row, Container } from 'reactstrap';
 
 // import HeadDefault from './components/HeadDefault';
-import NavbarTop from '../navbar/NavbarTop';
-import NavbarLeft from '../navbar/NavbarLeft';
-import Footer from '../Footer';
+import NavbarTop from './navbar/NavbarTop';
+import NavbarLeft from './navbar/NavbarLeft';
+import Footer from './Footer';
 
 function MainLayout(props) {
   const { children } = props;
