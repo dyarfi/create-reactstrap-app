@@ -12,9 +12,9 @@ import {
   CardLink,
 } from 'reactstrap';
 
-import MainLayout from 'layout/MainLayout';
+import MainLayout from '../layout/MainLayout';
 
-import { CARDS } from 'constants/cards';
+import { CARDS } from '../constants/cards';
 
 const PostsPage = memo((props) => {
   return (
