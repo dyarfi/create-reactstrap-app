@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardDeck } from 'reactstrap';
 
-import MainLayout from './layout/MainLayout';
+import MainLayout from 'layout/MainLayout';
 const Index = (props) => {
   return (
     <MainLayout>
