@@ -13,7 +13,7 @@ import {
   Button,
 } from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from '../components/layout/MainLayout';
 function Typography(props) {
   return (
     <MainLayout>

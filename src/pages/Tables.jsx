@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row, Table } from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from '../components/layout/MainLayout';
 
 function Tables(props) {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col } from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from '../components/layout/MainLayout';
 
 import { CARDS } from '../constants/cards';
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Row, Col } from 'reactstrap';
 
-import MainLayout from '../layout/MainLayout';
+import MainLayout from '../components/layout/MainLayout';
 
 function Documentation(props) {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, CardDeck, Card } from 'reactstrap';
 
-import MainLayout from './layout/MainLayout';
+import MainLayout from './components/layout/MainLayout';
 import './assets/scss/main.scss';
 
 function App() {
