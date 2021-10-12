@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React from 'react';
 import { Col } from 'reactstrap';
 
 import MainLayout from 'layout/MainLayout';
