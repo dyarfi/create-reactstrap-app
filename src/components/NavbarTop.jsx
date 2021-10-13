@@ -15,15 +15,14 @@ import {
 } from 'reactstrap';
 
 function NavbarTop(props) {
- 
   const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen);  
+  const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div>
       <Navbar color="light" light expand="md" fixed="top">
         <NavbarBrand href="/">
-          <img src="/logo.svg" alt="Logo React" className="logo" />
+          <img src="/logo.svg" alt="Logo React" className="App-logo logo" />
           CRA Reactstrap
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
@@ -51,7 +50,7 @@ function NavbarTop(props) {
             <NavLink href="/pages/dashboard">Dashboard</NavLink>
           </NavbarText>
         </Collapse>
-      </Navbar>          
+      </Navbar>
     </div>
   );
 }

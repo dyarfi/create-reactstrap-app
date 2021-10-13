@@ -14,6 +14,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .logo {
     width:60px;
+
+    animation: App-logo-spin infinite 20s linear;
 }
 .wrapper {
     margin-top:5rem;
@@ -40,14 +42,11 @@ h1,h2,h3,h4,h5,h6 {
     }
     &-list {
         &-group {
-            // border:1px solid red;
             padding:0;
             margin:auto;        
             max-height:46vh;
-            // height:auto;
             overflow-x:hidden;
             overflow-y:auto;
-            // overflow: scroll;
         }
     }
 }
@@ -159,26 +158,6 @@ footer[class=footer-main] {
         transition:transform .25s ease;
     }
 }
-// .show > .dropdown-menu:not([x-placement]) {
-// 	visibility:visible;
-// 	opacity:1;
-// 	transition:.5s ease;
-// 	&:before {
-// 		display: inline-block;
-// 		position: absolute;
-// 		width: 0;
-// 		height: 0;
-// 		vertical-align: middle;
-// 		content: "";
-// 		top: -5px;
-// 		left: auto;
-// 		right: 20px;
-// 		color: $white;
-// 		border-bottom: .4em solid;
-// 		border-right: .4em solid transparent;
-// 		border-left: .4em solid transparent;
-//     }
-// }
 .dropdown-menu:not([x-placement]) {
     // visibility: hidden;
 	// opacity: 0;
@@ -200,3 +179,11 @@ footer[class=footer-main] {
         border:0;
     }
 }
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
