@@ -5,7 +5,7 @@ import { Col, Row, Container } from 'reactstrap';
 
 import NavbarTop from './NavbarTop';
 import NavbarLeft from './NavbarLeft';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 // import Footer from './Footer';
 
@@ -22,7 +22,7 @@ function MainLayout(props) {
           <Col className="wrapper-content">{children}</Col>
         </Row>
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
