@@ -1,14 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@components/*": ["src/components/*"],
-      "@constants/*": ["src/constants/*"],
-      "@pages/*": ["src/pages/*"],
-      "@layout/*": ["src/components/layout/*"],
-      "@public/*": ["public/*"],
-      "@node_modules/*": ["node_modules/*"]
-    }
+    "baseUrl": "./src"
   },
   "include": ["src"]
 }

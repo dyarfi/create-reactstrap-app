@@ -3,8 +3,8 @@ import { Col, Row, Container } from 'reactstrap';
 
 // import HeadDefault from './HeadDefault';
 
-import NavbarTop from './NavbarTop';
-import NavbarLeft from './NavbarLeft';
+import NavbarTop from 'components/navbar/NavbarTop';
+import NavbarLeft from 'components/navbar/NavbarLeft';
 // import Footer from './Footer';
 
 // import Footer from './Footer';
