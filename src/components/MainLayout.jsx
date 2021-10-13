@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Row, Container } from 'reactstrap';
 
-// import HeadDefault from './components/HeadDefault';
+// import HeadDefault from './HeadDefault';
 
-import NavbarTop from './navbar/NavbarTop';
-import NavbarLeft from './navbar/NavbarLeft';
+import NavbarTop from './NavbarTop';
+import NavbarLeft from './NavbarLeft';
 import Footer from './Footer';
 
 // import Footer from './Footer';
